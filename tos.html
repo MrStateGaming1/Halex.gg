@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MCNodes - Terms of Service</title>
     <style>
+        /* Common styles for both desktop and mobile */
         body {
             font-family: 'Lexend Deca', sans-serif;
             background-color: #0f1012;
@@ -70,6 +71,26 @@
         }
         .navbar a:hover {
             color: #1fa651;
+        }
+
+        /* Styles specific to mobile devices */
+        @media only screen and (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+            .navbar {
+                padding: 5px 10px;
+            }
+            .footer {
+                padding: 5px;
+            }
+            .navbar ul {
+                flex-direction: column;
+            }
+            .navbar li {
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
         }
     </style>
 </head>
