@@ -35,5 +35,5 @@ mcnodes.tech is a website designed to provide comprehensive information and serv
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/mcnodes.tech.git
+   gh repo clone mcnodes-official/mcnodes-main
    
